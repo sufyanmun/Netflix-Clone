@@ -33,7 +33,7 @@ function SignUpScreen() {
       .then((authUser) => {
         console.log(authUser);
       })
-      .catch((error) => alert(error.message));
+      .catch(() => alert("That user does not exist. Please try again."));
   };
   return (
     <div className="signUpScreen">
