@@ -10,7 +10,7 @@ function ProfileScreen() {
   return (
     <div className="profileScreen">
       <Nav />
-      <div className="profilescreen__body">
+      <div className="profileScreen__body">
         <h1> Edit Profile</h1>
         <div className="profileScreen__info">
           <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" />
@@ -19,7 +19,7 @@ function ProfileScreen() {
             <div className="profileScreen__plans">
               <button
                 onClick={() => auth.signOut()}
-                className="profileScreen__signout"
+                className="profileScreen__signut"
               >
                 Sign Out
               </button>
