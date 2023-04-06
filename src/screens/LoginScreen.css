@@ -26,6 +26,11 @@
   background-color: rgb(229, 9, 20);
   padding: 10px 20px;
   border-radius: 2px;
+  transition: 250ms;
+}
+
+.loginScreen__button:hover {
+  opacity: 0.8;
 }
 
 .loginScreen__gradient {
@@ -75,6 +80,7 @@
 }
 
 .loginScreen__input > form > input {
+  vertical-align: top;
   padding: 10px;
   outline-width: 0;
   height: 30px;
@@ -90,4 +96,10 @@
   color: white;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+}
+
+.loginScreen__getStarted:hover {
+  transition: 250ms;
+  opacity: 0.9;
 }
